@@ -6,6 +6,20 @@ The `figures` directory contains some examples of plots that were produced for t
 
 # How to use
 
+Replicate the development environment with
+
+`conda env create -f environment.yml`
+
+`conda activate ml_ds`
+
+Run the main script
+
+`python dict.py`
+
+The program then asks for some options to be specified. The first is the dataset path which must be specified, e.g. `datasets/coffee.csv`.
+Next are the target and date columns, which are optional.
+To create the plots already in `figures/`, the options `datasets/coffee.csv`, `store_location` and `transaction_date` were used.
+
 # Acknowledgements & Licenses
 
 The `onlinefoods.csv` data was released under MIT license (Copyright (c) 2013 Mark Otto, Copyright (c) 2017 Andrew Fong.) and is available at https://www.kaggle.com/datasets/sudarshan24byte/online-food-dataset
