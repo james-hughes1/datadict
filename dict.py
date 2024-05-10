@@ -77,9 +77,11 @@ for i, col in enumerate(cols):
             show_correlation(corr_df, col)
             # Plot heatmap of contingencies with target
             if target:
-                fig, ax = plt.subplots(1, 1, figsize=(10, 10))
+                most_common = list(freq_vals.index)[:10]
+                filtered_df = df[df[col].isin(most_common)]
+                fig, ax = plt.subplots(1, 1, figsize=(15, 10))
                 sns.heatmap(
-                    pd.crosstab(df[col], df[target]),
+                    pd.crosstab(filtered_df[col], filtered_df[target]),
                     annot=True,
                     fmt="g",
                     ax=ax,
