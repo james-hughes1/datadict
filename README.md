@@ -18,9 +18,11 @@ Run the main script
 
 The program then asks for some options to be specified. The first is the dataset path which must be specified, e.g. `datasets/coffee.csv`.
 Next are the target and date columns, which are optional.
-To create the plots already in `figures/`, the options `datasets/coffee.csv`, `store_location` and `transaction_date` were used.
+To create the plots already in `figures/`, the options `datasets/vaccination_tweets.csv`, `user_verfied` and `date` were used.
 
 # Acknowledgements & Licenses
+
+The `vaccination_tweets.csv` data was released under an Apache 2.0 license and is available at https://www.kaggle.com/code/thomaskonstantin/pfizer-vaccine-sentiment-and-time-series-analysis/input
 
 The `onlinefoods.csv` data was released under MIT license (Copyright (c) 2013 Mark Otto, Copyright (c) 2017 Andrew Fong.) and is available at https://www.kaggle.com/datasets/sudarshan24byte/online-food-dataset
 
