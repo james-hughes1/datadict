@@ -2,7 +2,7 @@
 
 The script in this repository is a small example of the sort of plots and statistics that would be useful in a general purpose exploratory data analysis.
 
-The `figures` directory contains some examples of plots that were produced for the online foods dataset.
+The `figures` directory contains some examples of plots that were produced for the Pfizer vaccination tweets dataset.
 
 # How to use
 
